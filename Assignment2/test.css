@@ -1,0 +1,45 @@
+
+/* Style the tab */
+.topnav {
+  background-color:#be3144;
+  overflow: hidden;
+  border: 20px;;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family:"Poppins", sans-serif;
+  font-size: 1.4rem;
+  background-image: url("photo-1533090161767-e6ffed986c88.jpeg");
+  margin: 0;
+  padding: 0;
+}
+  
+.section {
+  width: 100vw;
+  height: 40vh;
+  background-color: grey;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.one{
+ background-color: papayawhip;
+ }
+
+ .one{
+ background-color: papayawhip;
+ }
+
+.btn {
+  color: white;
+  background-color:inherit;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  border: none;
+  text-decoration: none;
+  float: right;
+}
