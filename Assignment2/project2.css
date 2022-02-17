@@ -1,0 +1,23 @@
+  body {
+    background-image:url("photo-1533090161767-e6ffed986c88.jpeg");
+  }
+
+  .tab {
+    overflow: auto;
+    border: 10px solid rgb(204, 204, 204);
+    background-color: blanchedalmond;
+  }
+  
+  .tab button {
+    background-color: none;
+    float: right;
+    border: groove;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  {p
+  font-size: 20px;
+}
+  
