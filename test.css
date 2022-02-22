@@ -2,6 +2,9 @@
 /* Style the tab */
 .topnav {
   background-color:#be3144;
+  position:fixed;
+  width: 100%;
+  top: 0;
   overflow: hidden;
 }
 
@@ -21,8 +24,8 @@ body {
   
 .section {
   width: 100vw;
-  height: 100vh;
-  background-color:grey;
+  height: 200vh;
+  background-color:#45567d;;
   font-size: 30Px;
   color: white;
   text-align: center;
@@ -31,16 +34,16 @@ body {
 .one{
   background-image: url("photo-1533090161767-e6ffed986c88.jpeg");
   line-height: 19;
-  vertical-align: middle;
+  text-align: center;
   color: whitesmoke; 
   width: 100vw;
   height: 100vh;
  }
 
  .three{
- background-color: #45567d;
+ background-color: rgb(56, 56, 56);
  width: 100vw;
-height: 50vh;
+height: 60vh;
  }
 
 .btn {
@@ -87,6 +90,24 @@ float:inherit;
   color: white;
 }
 
+.fa-phone {
+  background: rebeccapurple;
+  color: white;
+}
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  background-color: grey
+  padding: 25px;
+  justify-content: center;
+}
+  
+a {
+  color: white;
+}
 
-
+a:hover {
+  background-color: blanchedalmond;
+}
